@@ -3,8 +3,8 @@ package h2;
 public class H2_main {
 	public static void main(String[] args) {
 		int i, j, k, min, max;
-		i = 1;
-		j = 2;
+		i = 2;
+		j = 1;
 		k = 3;
 		min = 4;
 		max = 5;
@@ -15,32 +15,28 @@ public class H2_main {
 				if (j < k) {
 					// => min=j
 					min = j;
-				}
-				if (j > k) {
+				} else {
 					// => min=k
 					min = k;
+					
 				}
-			}
-			if (i < k) {
+			} else {
 				// => max=k und min=j
 				max = k;
 				min = j;
 			}
-		}
-		if (i < j) {
+		} else {
 			if (j > k) {
 				// => max=j
 				max = j;
 				if (i < k) {
 					// => min=i
 					min = i;
-				}
-				if (i > k) {
+				} else {
 					// => min=k
 					min = k;
 				}
-			}
-			if (j < k) {
+			} else {
 				// => max=k und min=i
 				max = k;
 				min = i;
