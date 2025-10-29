@@ -4,11 +4,11 @@ public class H1_main {
 	public static void main(String[] args){
 		int z;
 		
-		z = 29;
+		z = 30;
 		
 		if (z > 10) {
 			
-			z = z - 10;	
+			z -= 10;	
 		}
 		System.out.println(z);
 		}
