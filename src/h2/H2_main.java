@@ -18,7 +18,7 @@ public class H2_main {
 				} else {
 					// => min=k
 					min = k;
-					
+
 				}
 			} else {
 				// => max=k und min=j
@@ -42,10 +42,10 @@ public class H2_main {
 				min = i;
 			}
 		}
-		System.out.println("max:");
-		System.out.print(max);
-		System.out.println();
-		System.out.println("min:");
-		System.out.print(min);
+		//System.out.println("max:");
+		//System.out.print(max);
+		//System.out.println();
+		//System.out.println("min:");
+		//System.out.print(min);
 	}
 }

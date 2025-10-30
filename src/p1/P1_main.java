@@ -10,4 +10,4 @@ public class P1_main {
 		System.out.println(zeile);
 		s.close();
 	}
-}
+} 
