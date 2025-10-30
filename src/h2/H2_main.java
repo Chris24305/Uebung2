@@ -3,8 +3,8 @@ package h2;
 public class H2_main {
 	public static void main(String[] args) {
 		int i, j, k, min, max;
-		i = 2;
-		j = 1;
+		i = 1;
+		j = 2;
 		k = 3;
 		min = 4;
 		max = 5;
